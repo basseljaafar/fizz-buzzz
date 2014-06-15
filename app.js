@@ -6,7 +6,7 @@ for (var i = 1; i<=100; i++)
 {
 	if(i%3 == 0)
 		{if(i%5==0){
-			fizzbuzz = "fizz buzz";
+			fizzbuzz = "fizzbuzz";
 		} else {
 			fizzbuzz = "fizz";}
 	} else if (i%5 == 0) {
@@ -14,6 +14,6 @@ for (var i = 1; i<=100; i++)
 		
 		} else {fizzbuzz = i;}
 		
-		$("ul").append(fizzbuzz).append("<br>")
+		$("body").append(fizzbuzz).append("<br>")
 }
 });
