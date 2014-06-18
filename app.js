@@ -1,7 +1,7 @@
 $(document).ready(function(){
 //alert(typeof(+""));
 //alert(typeof(+" "));
-alert((+""));
+//alert((+""));
 var FizzBuzz = function(num){
 
 num = +num;
