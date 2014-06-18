@@ -1,5 +1,7 @@
 $(document).ready(function(){
-
+//alert(typeof(+""));
+//alert(typeof(+" "));
+alert((+""));
 var FizzBuzz = function(num){
 
 num = +num;
@@ -7,7 +9,7 @@ var int = num.toFixed(0);
 //alert(num.toFixed(0));
 
 //if(isNaN(num)){
-	while(isNaN(num)){
+	while(isNaN(num) || num==0){
 		//alert("sdffs");
 		num = prompt("Please provide a number");}		
 //} else {
